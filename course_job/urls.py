@@ -20,5 +20,5 @@ from course_job import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    re_path('^$', views.index, name='index')
+    re_path('^$', views.index, name='index'),
 ]
